@@ -74,9 +74,15 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 ## Clonando um projeto.
 Agora sim vamos ver como clonar o projeto existente no git hub.
 Primeiro abra o terminal na pasta no qual você vai querer que ele fique. Lembrando que será criado uma pasta automaticamente com o nome do projeto. Exemplificando se você estiver no C: será criado automaticamente uma pasta "laravel-tutorial" (no nosso caso).
+
 git clone https://github.com/youraccount/laravel-tutorial.git
+
 Depois entre na pasta do projeto. Renomeie o arquivo .env.example para .env, no próximo post eu vou ensinar a como configurar esse arquivo, ele é muito importante para nós.
+
 Agora duas coisas importantes:
+
 1- Digite o commando "composer install". Ele vai instalar todos os pacotes php necessários.
+
 2- Digite o commando "php artisan key:generate". Esse vai gerar uma chave para sua aplicação. Sem isso o Laravel não vai funcionar
+
 Pronto seu projeto esta clonado, compartilhado, e instalado. Pronto para qualquer alteração e teste.
